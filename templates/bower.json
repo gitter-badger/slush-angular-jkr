@@ -1,0 +1,13 @@
+{
+  "name": "<%= appNameSlug %>",
+  "description": "<%= appDescription %>",
+  "main": "release/index.html",
+  "authors":  {
+    "name": "<%= appAuthor %>",
+    "url": "<%= appEmail %>"
+  },
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true
+}
