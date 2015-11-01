@@ -1,3 +1,1 @@
-angular.module("<%= appNameSlug %>",[
-
-])
+angular.module "<%= appNameSlug %>",[]
