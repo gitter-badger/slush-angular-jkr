@@ -22,14 +22,14 @@ gulp.task('default', function(done) {
     //Answers
     var prompts = [{
         name: 'appName',
-        message: 'What the name of project?'
+        message: 'What the name (id) of project? Ex: MyApp'
     }, {
         name: 'appDescription',
-        message: 'What the description?'
+        message: 'What the description? Ex: My Awesome App'
     }, {
         name: 'appVersion',
         message: 'What the version?',
-        default: '0.1.0'
+        default: '0.0.1'
     }, {
         name: 'appAuthor',
         message: 'Name of author?'

@@ -1,13 +1,23 @@
 {
-  "name": "<%= appNameSlug %>",
+  "name": "APPNAMESLUG",
   "description": "<%= appDescription %>",
-  "main": "release/index.html",
-  "authors":  {
+  "main": "build/index.html",
+  "authors": {
     "name": "<%= appAuthor %>",
     "url": "<%= appEmail %>"
   },
   "license": "MIT",
   "moduleType": [],
   "homepage": "",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "bootstrap": "*",
+    "angular": "*",
+    "jquery": "*",
+    "font-awesome": "*",
+    "angular-animate": "*",
+    "angular-ui-router": "*",
+    "lodash": "*",
+    "restangular": "*"
+  }
 }
