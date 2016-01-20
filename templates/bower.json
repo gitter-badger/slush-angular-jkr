@@ -1,5 +1,5 @@
 {
-  "name": "APPNAMESLUG",
+  "name": "<%= appNameSlug %>",
   "description": "<%= appDescription %>",
   "main": "build/index.html",
   "authors": {

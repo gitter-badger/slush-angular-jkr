@@ -15,4 +15,4 @@ class ExampleComponent
 # Inject
 ExampleComponent.$inject = []
 
-angular.module("APPNAMESLUG.components").directive("progress",-> new ExampleComponent())
+angular.module("<%= appNameSlug %>.components").directive("progress",-> new ExampleComponent())

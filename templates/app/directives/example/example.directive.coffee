@@ -13,4 +13,4 @@ class ExampleDirective
 ExampleDirective.$inject = []
 
 
-angular.module("APPNAMESLUG.directives").directive("bordering",-> new ExampleDirective())
+angular.module("<%= appNameSlug %>.directives").directive("bordering",-> new ExampleDirective())

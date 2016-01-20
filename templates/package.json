@@ -1,10 +1,10 @@
 {
-  "name": "APPNAMESLUG",
-  "description": "appDescription",
-  "version": "1.0.0",
+  "name": "<%= appNameSlug %>",
+  "description": "<%= appDescription %>",
+  "version": "<%= appVersion %>",
   "author": {
-    "name": "appAuthor",
-    "url": "appEmail"
+    "name": "<%= appAuthor %>",
+    "url": "<%= appEmail %>"
   },
   "devDependencies": {
     "del": "*",

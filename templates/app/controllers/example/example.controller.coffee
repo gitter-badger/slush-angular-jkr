@@ -4,4 +4,4 @@ class ExampleController
 ExampleController.$inject = []
 
 
-angular.module("APPNAMESLUG.controllers").controller("ExampleController",ExampleController)
+angular.module("<%= appNameSlug %>.controllers").controller("ExampleController",ExampleController)

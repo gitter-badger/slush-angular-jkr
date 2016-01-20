@@ -22,7 +22,10 @@ gulp.task('default', function(done) {
     //Answers
     var prompts = [{
         name: 'appName',
-        message: 'What the name (id) of project? Ex: MyApp'
+        message: 'What the name (id) of project? Ex: MyApp',
+        validate: function(input){
+          return(input.length > 2)
+        }
     }, {
         name: 'appDescription',
         message: 'What the description? Ex: My Awesome App'
