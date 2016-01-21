@@ -1,10 +1,41 @@
 # A Angular JS project
 
 # Get Started
+To generate a new project:
 ```shell
 npm install -g slush slush-angular-jkr
 slush angular-jkr
 ```
+## After generate a new project
+```shell
+npm install
+bower update
+gulp
+```
+Run a webserver (open a new terminal tab):
+```shell
+gulp server
+```
+
+Watch changes (open a new terminal tab):
+```shell
+gulp watch
+```
+Test Server (open a new terminal tab):
+```shell
+gulp test
+```
+
+## Building your project
+Generate folder `build`:
+```shell
+gulp build
+```
+Browsing:
+```shell
+gulp server-build
+```
+
 # Requirements
 - Ruby & Ruby on Rails (Language and powerfull framework)
 - NodeJS (Javascript runtime server)
@@ -17,14 +48,16 @@ slush angular-jkr
 - Jasmine (testing language)
 
 ## Installing on Windows
+Recommend to use **Cmder** instead **Windows Command Line**: http://cmder.net/
+
 - Install **Ruby on Rails** and Utilities: http://www.railsinstaller.org/pt-BR
 - Install **Node**: https://nodejs.org/en/
 - Install **Sass**: `gem install sass`
 - Install **Jade**: `gem install jade`
-- Install **All node modules**: `npm install -g bower gulp karma jasmine`
+- Install **All node modules**: `npm install -g bower gulp karma jasmine coffee-script node-gyp`
 
 ## Installing on OSX
-Recommend to use **Cmder** instead **Windows Command Line**
+
 - Install **Homebrew**: `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 - Install **RVM**: `brew install rvm`
 - Install **Node**: `brew install node`
@@ -33,4 +66,4 @@ Recommend to use **Cmder** instead **Windows Command Line**
 - Install **Rails**: `gem install rails`
 - Install **Sass**: `gem install sass`
 - Install **Jade**: `gem install jade`
-- Install **All node modules**: `npm install -g bower gulp karma jasmine`
+- Install **All node modules**: `npm install -g bower gulp karma jasmine coffee-script node-gyp`

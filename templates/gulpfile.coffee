@@ -172,4 +172,4 @@ gulp.task 'default', (callback)->
 	runSequence 'clean', ['bower','jade','coffee','sass','images'], callback
 
 gulp.task 'build', (callback)->
-	runSequence 'default', 'copy',['usemin','imagemin'], callback
+	runSequence 'default', 'copy','usemin','imagemin', callback
