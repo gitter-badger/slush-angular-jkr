@@ -1,5 +1,7 @@
 # A Angular JS project
 
+[![Join the chat at https://gitter.im/jesse1983/slush-angular-jkr](https://badges.gitter.im/jesse1983/slush-angular-jkr.svg)](https://gitter.im/jesse1983/slush-angular-jkr?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 # Get Started
 To generate a new project:
 ```shell
